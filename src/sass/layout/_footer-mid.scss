@@ -1,3 +1,8 @@
 @use '../abstract/_variables' as v;
 @use '../abstract/_mixins' as m;
 
+.footer__mid{
+    .links__container{
+        display: flex;
+    }
+}

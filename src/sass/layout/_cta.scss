@@ -1,0 +1,14 @@
+@use '../abstract/_variables' as v;
+@use '../abstract/_mixins' as m;
+
+.footer__cta{
+    display: inline-block;
+    min-width: 100%;
+    position: absolute;
+    background-image: v.$gradient-bg;
+    display: flex;
+    justify-content: space-between;
+    top: -50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
