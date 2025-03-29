@@ -3,12 +3,13 @@
 
 .footer__cta{
     display: inline-block;
-    min-width: 100%;
+    min-width: 95%;
     position: absolute;
     background-image: v.$gradient-bg;
     display: flex;
     justify-content: space-between;
-    top: -50px;
+    top: -60px;
+    left: 50px;
     padding: 30px 50px;
     border-radius: 10px;
     .cta__content{

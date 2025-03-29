@@ -2,7 +2,54 @@
 @use '../abstract/_mixins' as m;
 
 .footer__mid{
+    padding-top: 100px;
+    .logo__container{
+        padding-bottom: 20px;
+    }
     .links__container{
         display: flex;
+        justify-content: space-between;
+        ul{
+            list-style-type: none;
+            li{
+                margin-bottom: 14px;
+            }
+            .title{
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 32px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 14px;
+                &:hover{
+                    text-decoration: underline;
+                    
+                }
+            }
+        }
+        .icons{
+            min-width:210px;
+            .title{
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 32px;
+            }
+            .icons__container{
+                display: flex;
+                gap: 16px;
+            }
+        }
+    }
+    &::after{
+        //DECORATIVE LINE
+        content: "";
+        display: inline-block;
+        height: 1px;
+        min-width: 1920px;
+        position: absolute;
+        background-color: white;
+        right: -251px;
+        bottom: 170px;
     }
 }
