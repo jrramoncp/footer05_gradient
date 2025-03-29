@@ -9,6 +9,64 @@
     display: flex;
     justify-content: space-between;
     top: -50px;
-    padding: 20px 40px;
+    padding: 30px 50px;
     border-radius: 10px;
+    .cta__content{
+        h4{
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 18px;
+        }
+        .content__icons{
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            gap: 24px;
+            li{
+                display: inline-block;
+                background-image: url(/img/check-icon.svg);
+                background-repeat: no-repeat;
+                background-position: left;
+                padding-left: 20px;
+                font-size:16px;
+            }
+        }
+
+    }
+    .cta__buttons{
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            gap: 30px;
+            .btn{
+                padding: 10px 35px ;
+                font-size: 16px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+
+            .black{
+                background: black;
+                color: white;
+                transition: 0.5s ease;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+            .white{
+                background-color: white;
+                color: black;
+                transition: 0.5s ease;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+
+    }
 }
